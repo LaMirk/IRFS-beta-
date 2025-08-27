@@ -1,0 +1,15 @@
+/* section .brand { 
+    width: calc(var(--site-width)*0.5); 
+    height: calc(var(--site-width)*0.2);
+    overflow: hidden;
+    object-fit: cover;
+} */
+
+section .brand { 
+    width: calc(var(--site-width)*0.5); 
+    height: calc(var(--site-width)*0.14);
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.column { flex-direction: column; }

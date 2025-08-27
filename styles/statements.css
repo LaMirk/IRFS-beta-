@@ -1,0 +1,19 @@
+.statement__list.flex-container {
+    flex-wrap: wrap;
+    gap: calc(var(--site-width)*0.02);
+}
+
+.statement {
+    width: calc(var(--site-width)*0.23);
+}
+
+.statement__cover {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .statement {
+        width: var(--site-width);
+    }
+}

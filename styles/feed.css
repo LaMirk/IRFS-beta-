@@ -1,0 +1,31 @@
+:root {
+    --post-list-width: 33vw;
+}
+
+section .flex-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.post-list__item {
+    width: var(--post-list-width);
+}
+
+.post-list__item__cover {
+    width: var(--post-list-width);
+    height: auto;
+}
+
+@media only screen and ( max-width: 600px ) {
+    /* :root {
+        --post-list-width: --site-width;
+    } */
+
+    .post-list__item {
+        width: var(--site-width);
+    }
+
+    .post-list__item__cover {
+        width: var(--site-width);
+    }
+}

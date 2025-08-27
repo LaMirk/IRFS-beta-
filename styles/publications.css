@@ -1,0 +1,18 @@
+.publication__list.flex-container {
+    flex-wrap: wrap;
+    gap: calc(var(--site-width)*0.02);
+}
+
+.publication {
+    width: calc(var(--site-width)*0.23);
+}
+
+.publication__cover {
+    width: 100%;
+}
+
+@media only screen and ( max-width: 600px ) {
+    .publication {
+        width: var(--site-width)*0.23;
+    }
+}

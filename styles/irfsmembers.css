@@ -1,0 +1,14 @@
+section .brand { 
+    width: calc(var(--site-width)*0.4);
+    height: calc(var(--site-width)*0.12);
+    object-fit: cover;
+    float: left;
+}
+
+.member__photo { width: calc(var(--site-width)*0.3);}
+
+.member-list.flex-container { flex-wrap: wrap; }
+
+.member { text-align: center; }
+
+ul, ol { margin-bottom: 2rem;}

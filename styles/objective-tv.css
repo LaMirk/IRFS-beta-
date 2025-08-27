@@ -1,0 +1,14 @@
+article > .brand {
+    width: calc(var(--site-width)*0.2);
+    height: calc(var(--site-width)*0.178);
+    object-fit: cover;
+    float: left;
+}
+
+.video-list {
+    width: var(--site-width);
+}
+
+.video-list > * {
+    width: calc(var(--site-width)*0.33);
+}

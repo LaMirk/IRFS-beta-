@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="/images/cropped-Untitled-design5-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/images/cropped-Untitled-design5-32x32.png" sizes="32x32">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="/styles/utils.css">
+    <link rel="stylesheet" href="/styles/block.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    
+  <link rel="stylesheet" href="/styles/feed.css">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header role="banner" id="site-header" class="[ important ]">
+    <nav class="[ nav ] [ site-header__nav ]">
+        <div class="[ container ]">
+            <div class="[ nav__list ] [ site-header__nav__list ] ">
+                <ul class="[ flex-container horizontal-center space-between ] [ style-type-none ]">
+                    <li id="site-header__brand" class="[ style-type-none ]">
+                        <a href="/"><img src="/images/brand/IRFS-LOGO-WHITE.png" alt="IRFS Brand" class="brand"></a>
+                    </li>
+                    <li class="[ mobile-button ]"><a href="/"><div class="[ material-icons ]">home</div></a></li>
+                    
+                        <li class="[ nav__label  ]">
+                            <div class="[ flex-container ]">
+                                <a href="/" class="[ sans-text-decoration bold fs-5 ] [ title-animation-underline ]">Home</a>
+                                
+                            </div>
+                            
+                        </li>
+                    
+                        <li class="[ nav__label [ nav__sublist ] ]">
+                            <div class="[ flex-container ]">
+                                <a href="" class="[ sans-text-decoration bold fs-5 ] [ title-animation-underline ]">Who We Are</a>
+                                <div class="[ arrow_back_ios_new ] [ material-icons ]">arrow_back_ios_new</div>
+                            </div>
+                            
+                                <div class="[ nav__droplist ]">
+                                    <div class="[ shadow-wrapper radius hidden important ] [ pt-4 pr-6 pb-6 pl-6 ]">
+                                        <ul class="[ style-type-none ] ">
+                                            
+                                                <li class="[ inline ] [ ml-4 ]"><a href="/vision-mission-strategy/" class="[ sans-text-decoration bold ]">VISION &#124; MISSION &#124; STRATEGY</a></li>
+                                            
+                                                <li class="[ inline ] [ ml-4 ]"><a href="/irfsmembers/" class="[ sans-text-decoration bold ]">IRFS MEMBERS</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>    
+                            
+                        </li>
+                    
+                        <li class="[ nav__label [ nav__sublist ] ]">
+                            <div class="[ flex-container ]">
+                                <a href="" class="[ sans-text-decoration bold fs-5 ] [ title-animation-underline ]">What We Do</a>
+                                <div class="[ arrow_back_ios_new ] [ material-icons ]">arrow_back_ios_new</div>
+                            </div>
+                            
+                                <div class="[ nav__droplist ]">
+                                    <div class="[ shadow-wrapper radius hidden important ] [ pt-4 pr-6 pb-6 pl-6 ]">
+                                        <ul class="[ style-type-none ] ">
+                                            
+                                                <li class="[ inline ] [ ml-4 ]"><a href="/what-we-do/promoting-press-freedom-and-journalist-safety/" class="[ sans-text-decoration bold ]">Promoting press freedom and journalist safety</a></li>
+                                            
+                                                <li class="[ inline ] [ ml-4 ]"><a href="/what-we-do/promotion-of-youth-media-and-ict/" class="[ sans-text-decoration bold ]">Promotion of youth media and ICT</a></li>
+                                            
+                                                <li class="[ inline ] [ ml-4 ]"><a href="/what-we-do/freedom-of-expression/" class="[ sans-text-decoration bold ]">Protection of freedom of expression</a></li>
+                                            
+                                                <li class="[ inline ] [ ml-4 ]"><a href="/what-we-do/freedom-of-information/" class="[ sans-text-decoration bold ]">Safeguarding freedom of information</a></li>
+                                            
+                                                <li class="[ inline ] [ ml-4 ]"><a href="/what-we-do/objective-tv/" class="[ sans-text-decoration bold ]">Objective TV</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>    
+                            
+                        </li>
+                    
+                        <li class="[ nav__label  ]">
+                            <div class="[ flex-container ]">
+                                <a href="/news-feed/" class="[ sans-text-decoration bold fs-5 ] [ title-animation-underline ]">News</a>
+                                
+                            </div>
+                            
+                        </li>
+                    
+                        <li class="[ nav__label  ]">
+                            <div class="[ flex-container ]">
+                                <a href="/contact-us/" class="[ sans-text-decoration bold fs-5 ] [ title-animation-underline ]">Contact Us</a>
+                                
+                            </div>
+                            
+                        </li>
+                    
+                    <li class="[ searc ]">
+                        <div class="[ flex-container horizontal-center space-around ]">
+                            <div class="material-icons">search</div>
+                            <a href="" class="[ sans-text-decoration ]"><span>Search</span></a>
+                        </div>
+                    </li>
+                    <li class="[ mobile-button ] [ nav_menu site-header__menu ]">
+                        <button onclick='$(".brand").css("background-color", "red");'>
+                            <div class="[ material-icons ]">menu</div>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>    
+    </nav>
+</header>    
+
+
+    <main class="[ container ]">
+  <section>
+    <header class="[ page-header ] ">
+	<h1 class="[ page-header__heading ] [ headline ]" data-highlight="primary">
+		News
+	</h1>
+	
+</header>
+    <ol class="[ post-list ] [ style-type-none ] [ flex-container ]">
+	
+		
+		<li class="[ post-list__item ] [ mt-6 ] [ shadow-wrapper ]">
+			<a href="/news-feed/amnesty-international-condemns-azerbaijan-s-intimidation-campaign-against-journalists-following-harsh-sentences-for-abzas-media-staff-2025-06-24/" class="[ sans-text-decoration ]">
+				
+					<img src="/images/cover/Abzas-Media.jpg" alt="
+			
+				Amnesty International Condemns Azerbaijan’s “Intimidation Campaign” Against Journalists Following Harsh Sentences for Abzas Media Staff
+			
+		" class="post-list__item__cover">
+				
+				<div class="[ mt-4 mr-4 mb-4 ml-4 ]">
+					<h2 class="[ fs-5 ] [ title-animation-underline upk-title ]">Amnesty International Condemns Azerbaijan’s “Intimidation Campaign” Against Journalists Following Harsh Sentences for Abzas Media Staff</h2>
+					
+						<p class="mt-4">Seven journalists from Azerbaijan’s independent Abzas Media outlet have been sentenced to lengthy prison terms ranging from 7.5 to 9 years, prompting fierce condemnation from Amnesty International, which described the case as a textbook example of how Azerbaijan’s judicial system has been weaponized to silence critical journalism.</p>
+					
+					
+				</div>
+			</a>
+		</li>
+	
+		
+		<li class="[ post-list__item ] [ mt-6 ] [ shadow-wrapper ]">
+			<a href="/news-feed/azerbaijan-delivers-harsh-sentences-to-abzas-media-journalists-and-farid-mehralizade-amidst-international-outcry-2025-06-22/" class="[ sans-text-decoration ]">
+				
+					<img src="/images/cover/AbzasMedia.avif" alt="
+			
+				Azerbaijan Delivers Harsh Sentences to “Abzas Media” Journalists and Farid Mehralizade Amidst International Outcry
+			
+		" class="post-list__item__cover">
+				
+				<div class="[ mt-4 mr-4 mb-4 ml-4 ]">
+					<h2 class="[ fs-5 ] [ title-animation-underline upk-title ]">Azerbaijan Delivers Harsh Sentences to “Abzas Media” Journalists and Farid Mehralizade Amidst International Outcry</h2>
+					
+						<p class="mt-4">**Baku, Azerbaijan** – In a move that has drawn sharp criticism from international human rights and media organizations, an Azerbaijani court on June 20 handed down severe prison sentences to journalists from “Abzas Media” and Radio Azadliq’s Farid Mehralizade. The verdicts, which the journalists vehemently deny, are widely seen as politically motivated reprisals for their investigations into high-level corruption.</p>
+					
+					
+				</div>
+			</a>
+		</li>
+	
+		
+		<li class="[ post-list__item ] [ mt-6 ] [ shadow-wrapper ]">
+			<a href="/news-feed/stop-weaponizing-the-courts-irfs-calls-for-european-action-on-georgia-s-civil-society-repression-2025-06-19/" class="[ sans-text-decoration ]">
+				
+					<img src="/images/cover/100th-day-of-Georgia-protests-1-1024x683.jpeg" alt="
+			
+				Stop Weaponizing the Courts! IRFS Calls for European Action on Georgia’s Civil Society Repression
+			
+		" class="post-list__item__cover">
+				
+				<div class="[ mt-4 mr-4 mb-4 ml-4 ]">
+					<h2 class="[ fs-5 ] [ title-animation-underline upk-title ]">Stop Weaponizing the Courts! IRFS Calls for European Action on Georgia’s Civil Society Repression</h2>
+					
+						<p class="mt-4">The IRFS calls on the European Institutions and the Council of Europe to demand from the Georgian authorities a stop to use of the court powers in a bid to suppress activities by critical civil society organisations, including those supporting media.</p>
+					
+					
+				</div>
+			</a>
+		</li>
+	
+		
+		<li class="[ post-list__item ] [ mt-6 ] [ shadow-wrapper ]">
+			<a href="/news-feed/my-spiritual-torture-2025-06-19/" class="[ sans-text-decoration ]">
+				
+					<img src="/images/cover/Aynur-Elgunəs.jpeg" alt="
+			
+				My Spiritual Torture
+			
+		" class="post-list__item__cover">
+				
+				<div class="[ mt-4 mr-4 mb-4 ml-4 ]">
+					<h2 class="[ fs-5 ] [ title-animation-underline upk-title ]">My Spiritual Torture</h2>
+					
+						<p class="mt-4">Azerbaijan is a strange country. Here, a child is a source of security, an heir, a being who will carry you on their shoulders tomorrow. The approach of ‘a son carries you to the grave on his shoulders,’ ‘a daughter cries more’ is a mental value that has come down through the centuries. A child must stand in the shadow of those who brought them into this world throughout their entire life. If they want to live their own life, they are ungrateful, someone who has trampled on family values. Yet they had no role, no order in coming into this world…</p>
+					
+					
+				</div>
+			</a>
+		</li>
+	
+		
+		<li class="[ post-list__item ] [ mt-6 ] [ shadow-wrapper ]">
+			<a href="/news-feed/lawyer-rovshane-rahimli-nargiz-absalamova-was-engaged-in-organized-journalism-2025-06-19/" class="[ sans-text-decoration ]">
+				
+					<img src="/images/cover/Nargiz_Absalamova.jpg" alt="
+			
+				Lawyer Rovshane Rahimli: “Nargiz Absalamova was engaged in organized journalism”
+			
+		" class="post-list__item__cover">
+				
+				<div class="[ mt-4 mr-4 mb-4 ml-4 ]">
+					<h2 class="[ fs-5 ] [ title-animation-underline upk-title ]">Lawyer Rovshane Rahimli: “Nargiz Absalamova was engaged in organized journalism”</h2>
+					
+						<p class="mt-4">According to the lawyer, the majority of the presented evidence is based on statements given under pressure.</p>
+					
+					
+				</div>
+			</a>
+		</li>
+	
+		
+		<li class="[ post-list__item ] [ mt-6 ] [ shadow-wrapper ]">
+			<a href="/news-feed/imprisoned-journalist-polad-aslanov-reveals-overcrowded-cells-and-medical-neglect-during-ombudsman-prison-visit-2025-06-17/" class="[ sans-text-decoration ]">
+				
+					<img src="/images/cover/Polad-Aslanov-11-01-2022-1024x683-1.jpg" alt="
+			
+				Imprisoned Journalist Polad Aslanov Reveals Overcrowded Cells and Medical Neglect During Ombudsman Prison Visit
+			
+		" class="post-list__item__cover">
+				
+				<div class="[ mt-4 mr-4 mb-4 ml-4 ]">
+					<h2 class="[ fs-5 ] [ title-animation-underline upk-title ]">Imprisoned Journalist Polad Aslanov Reveals Overcrowded Cells and Medical Neglect During Ombudsman Prison Visit</h2>
+					
+						<p class="mt-4">Imprisoned journalist Polad Aslanov has exposed shocking conditions at Azerbaijan’s Penitentiary Institution No. 15 during a recent visit by representatives from the Ombudsman’s Office, revealing overcrowded cells where prisoners sleep on floors and systematic denial of medical care.</p>
+					
+					
+				</div>
+			</a>
+		</li>
+	
+		
+		<li class="[ post-list__item ] [ mt-6 ] [ shadow-wrapper ]">
+			<a href="/news-feed/toplum-tv-case-journalists-allege-political-motivation-amidst-heated-court-proceedings-2025-06-08/" class="[ sans-text-decoration ]">
+				
+					<img src="/images/cover/toplum_tv-1024x625.png" alt="
+			
+				Toplum TV Case: Journalists Allege Political Motivation Amidst Heated Court Proceedings
+			
+		" class="post-list__item__cover">
+				
+				<div class="[ mt-4 mr-4 mb-4 ml-4 ]">
+					<h2 class="[ fs-5 ] [ title-animation-underline upk-title ]">Toplum TV Case: Journalists Allege Political Motivation Amidst Heated Court Proceedings</h2>
+					
+						<p class="mt-4">**Baku, Azerbaijan** – The “Toplum TV case” saw another tense court hearing at the Baku Grave Crimes Court today, marked by a heated exchange between a defendant journalist and the presiding judge, and persistent allegations of political persecution. The proceedings, chaired by Judge Azer Taghiyev, continued with the testimony of a key defendant and the presentation of motions challenging the legality of the process.</p>
+					
+					
+				</div>
+			</a>
+		</li>
+	
+		
+		<li class="[ post-list__item ] [ mt-6 ] [ shadow-wrapper ]">
+			<a href="/news-feed/bakhtiyar-hajiyev-s-lawyer-claims-that-his-right-to-defence-was-violated-2024-12-24/" class="[ sans-text-decoration ]">
+				
+					<img src="/images/cover/baxtiyar-520x327.jpg" alt="
+			
+				Bakhtiyar Hajiyev’s lawyer claims that his right to defence was violated
+			
+		" class="post-list__item__cover">
+				
+				<div class="[ mt-4 mr-4 mb-4 ml-4 ]">
+					<h2 class="[ fs-5 ] [ title-animation-underline upk-title ]">Bakhtiyar Hajiyev’s lawyer claims that his right to defence was violated</h2>
+					
+						<p class="mt-4">On 23 December, at the trial of activist Bakhtiyar Hajiyev in the Court of Grave Crimes, the escorts violated the confidentiality of his communication with his lawyer. This was reported by his lawyer Agyl Laij.</p>
+					
+					
+				</div>
+			</a>
+		</li>
+	
+		
+		<li class="[ post-list__item ] [ mt-6 ] [ shadow-wrapper ]">
+			<a href="/news-feed/bakhtiyar-hajiyev-demanded-to-exclude-falsified-documents-from-his-case-2024-12-16/" class="[ sans-text-decoration ]">
+				
+					<img src="/images/cover/baxtiyar-520x327.jpg" alt="
+			
+				Bakhtiyar Hajiyev demanded to exclude falsified documents from his case
+			
+		" class="post-list__item__cover">
+				
+				<div class="[ mt-4 mr-4 mb-4 ml-4 ]">
+					<h2 class="[ fs-5 ] [ title-animation-underline upk-title ]">Bakhtiyar Hajiyev demanded to exclude falsified documents from his case</h2>
+					
+						<p class="mt-4">The trial of Bakhtiyar Hajiyev’s case continued today in the Baku Serious Crimes Court. During the session the activist made a number of petitions.</p>
+					
+					
+				</div>
+			</a>
+		</li>
+	
+		
+		<li class="[ post-list__item ] [ mt-6 ] [ shadow-wrapper ]">
+			<a href="/news-feed/irfs-disappointed-about-lionel-messi-legitimizing-the-oppressive-regime-of-aliyev-s-family-2024-12-13/" class="[ sans-text-decoration ]">
+				
+					<img src="/images/cover/5dc88d85-cdf6-4178-aa9b-69dc1c32cd4a-1024x577.jpeg" alt="
+			
+				IRFS disappointed about Lionel Messi legitimizing the oppressive regime of Aliyev’s family
+			
+		" class="post-list__item__cover">
+				
+				<div class="[ mt-4 mr-4 mb-4 ml-4 ]">
+					<h2 class="[ fs-5 ] [ title-animation-underline upk-title ]">IRFS disappointed about Lionel Messi legitimizing the oppressive regime of Aliyev’s family</h2>
+					
+						<p class="mt-4">While global leaders express growing concern and criticism over the intensifying human rights crackdown in Azerbaijan, which has reached an unprecedented low with 331 political prisoners, Lionel Messi—a global football star and UNICEF Goodwill Ambassador—has chosen to pay tribute to Heydar Aliyev on the anniversary of his death, the former President of Azerbaijan and father of the incumbent leader, Ilham Aliyev. He also visited Heydar Aliyev Center and met with its Director, Assistant to the President of Azerbaijan, Anar Alakbarov. By doing so, Messi has contributed to the reinforcement of the Aliyev family’s cult of personality in Azerbaijan.</p>
+					
+					
+				</div>
+			</a>
+		</li>
+	
+</ol>
+
+    
+    
+      
+
+  <footer class="[ pagination ] [ mt-6 pt-4 pr-4 pb-4 pl-4 ]">
+    <div class="wrapper">
+      <nav class="[ pagination__inner ] [ flex-container space-around ]" aria-label="Pagination links">
+        
+          <a class="[ sans-text-decoration ]" href="/news-feed/#post-list" data-direction="backwards">
+            <span>Newer posts</span>
+          </a>
+        
+        
+          <a class="[ sans-text-decoration ]" href="/news-feed/page/2/#post-list" data-direction="forwards">
+            <span>Older posts</span>
+          </a>
+        
+      </nav>
+    </div>
+  </footer>
+
+    
+    </section>
+</main>
+    <footer id="footer">
+    <div class="[ pt-6 pb-6 ] [ container ]">
+        <nav aria-label="Footer navigation" class="[ nav ] [ footer__nav ]">
+            <div class="[ flex-container ]">
+                <a href="/"><img src="/images/brand/IRFS-LOGO-WHITE.png" alt="IRFS Brand" id="footer-brand" class="brand"></a>
+                
+                <ul class="[ nav__list ] [ footer__nav__list ] [ style-type-none ]">
+                    <li class="[ bold ]"><span>Latest</span></li>
+                    
+                        <li class="[ mt-4 ] [ bold ]"><a href="/news-feed/" class="[ sans-text-decoration ]"> News</a></li>
+                    
+                        <li class="[ mt-4 ] [ bold ]"><a href="/statements/" class="[ sans-text-decoration ]"> Statements</a></li>
+                    
+                        <li class="[ mt-4 ] [ bold ]"><a href="/publications/" class="[ sans-text-decoration ]"> Publications</a></li>
+                    
+                </ul>
+                
+                <ul class="[ nav__list ] [ footer__nav__list ] [ style-type-none ]">
+                    <li class="[ bold ]"><span>About Us</span></li>
+                    
+                        <li class="[ mt-4 ] [ bold ]"><a href="/irfsmembers/" class="[ sans-text-decoration ]"> IRFS Members</a></li>
+                    
+                        <li class="[ mt-4 ] [ bold ]"><a href="/vision-mission-strategy/" class="[ sans-text-decoration ]"> VISION &#124; MISSION &#124; STRATEGY</a></li>
+                    
+                        <li class="[ mt-4 ] [ bold ]"><a href="/contact-us/" class="[ sans-text-decoration ]"> Contact Us</a></li>
+                    
+                </ul>
+                
+                <ul class="[ nav__list ] [ footer__nav__list ] [ style-type-none ]">
+                    <li class="[ bold ]"><span>What We Do</span></li>
+                    
+                        <li class="[ mt-4 ] [ bold ]"><a href="/what-we-do/promoting-press-freedom-and-journalist-safety/" class="[ sans-text-decoration ]"> Promoting press freedom and journalist safety</a></li>
+                    
+                        <li class="[ mt-4 ] [ bold ]"><a href="/what-we-do/promotion-of-youth-media-and-ict/" class="[ sans-text-decoration ]"> Promotion of youth media and ICT</a></li>
+                    
+                        <li class="[ mt-4 ] [ bold ]"><a href="/what-we-do/freedom-of-expression/" class="[ sans-text-decoration ]"> Protection of freedom of expression</a></li>
+                    
+                        <li class="[ mt-4 ] [ bold ]"><a href="/what-we-do/objective-tv/" class="[ sans-text-decoration ]"> Objective TV</a></li>
+                    
+                </ul>
+                
+            </div>
+        </nav>
+        <p id="footer__copyright" class="[ mt-6 ]">&#169; 2025 &#8226; IRFS</p>
+    </div>
+</footer>
+</body>
+</html>
